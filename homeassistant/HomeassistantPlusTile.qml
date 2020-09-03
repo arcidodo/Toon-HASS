@@ -69,7 +69,7 @@ Rectangle {
 			id: tileGrid
 			color: "transparent"
 	width: parent.width - 20
-	//height: isNxt ? 75 : 60
+	height: isNxt ? 75 : -10
 	anchors {
 		bottom: parent.top
 		left: parent.left
